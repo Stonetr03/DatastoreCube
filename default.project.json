@@ -1,0 +1,19 @@
+{
+  "name": "Datastore - Cube",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "Loader": {
+        "$path": "src/Loader/",
+
+        "Commands": {
+          "$className": "Folder",
+          "Datastore": {
+            "$path": "src/Datastore"
+          }
+        }
+      }
+    }
+  }
+}
