@@ -1,0 +1,22 @@
+{
+    "name": "Datastore - Cube - Build",
+    "tree": {
+      "$className": "DataModel",
+  
+      "ServerScriptService": {
+        "Loader": {
+          "$path": "src/Loader/",
+  
+          "Commands": {
+            "$className": "Folder"
+          }
+        },
+        "MainModule": {
+            "$path": "src/build.lua",
+            "Datastore": {
+                "$path": "src/Datastore"
+            }
+        }
+      }
+    }
+}
